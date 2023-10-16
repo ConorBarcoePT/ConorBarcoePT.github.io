@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #333;
 }
 
 .container {
@@ -16,11 +17,22 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50vw;
-  border: 1px solid red;
+  width: 100%;
+  padding: 1rem;
 }
 
-h2 {
+.header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  border: 0.3rem solid white;
+  padding: 0.7rem 1.8rem;
+  margin: 1rem 0;
+}
+
+.sub-header {
+  font-size: 1rem;
+  margin: 0.5rem 0;
   align-self: flex-start;
 }
 
