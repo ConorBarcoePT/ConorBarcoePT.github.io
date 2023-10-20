@@ -107,8 +107,6 @@ section {
   bottom: 0;
 }
 
-/* PHOTO */
-
 .main-photo {
   height: 100%;
   display: flex;
@@ -125,4 +123,47 @@ section {
 .main-photo svg {
   min-width: 135%;
   height: 183%;
+}
+
+/* card flip */
+.card {
+  width: 10rem;
+  height: 10rem;
+}
+
+.content {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  width: 10rem;
+  height: 10rem;
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background: white;
+  color: #03446a;
+  backface-visibility: hidden;
+}
+
+.front {
+  font-size: 1rem;
+}
+
+.back {
+  width: 10rem;
+  height: 10rem;
+  background: #03446a;
+  color: white;
+  transform: rotateY(180deg);
 }
