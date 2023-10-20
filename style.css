@@ -69,3 +69,37 @@ iframe {
 }
 .countup span[class*="timeRef"] {
 }
+
+/* flower */
+.flower-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 10rem;
+  width: 10rem;
+  position: fixed;
+  bottom: 0;
+}
+
+/* PHOTO */
+
+.main-photo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pop-out-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-photo svg {
+  min-width: 135%;
+  height: 183%;
+}
