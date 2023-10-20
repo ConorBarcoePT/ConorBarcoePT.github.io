@@ -48,12 +48,14 @@ body {
 .sub-header {
   font-size: 1rem;
   margin: 0.5rem 0;
-  align-self: flex-start;
+  color: white;
 }
 
-iframe {
-  width: 100%;
-  border: 1px solid rgb(76, 0, 255);
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* timer */
