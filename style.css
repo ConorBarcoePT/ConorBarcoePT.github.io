@@ -21,6 +21,15 @@ body {
   padding: 1rem;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+/* header */
 .header {
   font-size: 1.8rem;
   font-weight: 500;
@@ -51,13 +60,6 @@ body {
   color: white;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 /* timer */
 .countup {
   text-align: center;
@@ -70,6 +72,25 @@ section {
   color: white;
 }
 .countup span[class*="timeRef"] {
+}
+
+/* image slideshow */
+.image-container {
+  position: relative;
+  border: 0.5rem solid white;
+  width: 11rem;
+  height: 11rem;
+}
+
+.intro-slideshow img {
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
 }
 
 /* flower */
