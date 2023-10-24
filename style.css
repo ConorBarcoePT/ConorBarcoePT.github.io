@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   width: 100%;
   padding: 1rem;
+  padding-bottom: 10rem;
 }
 
 section {
@@ -93,7 +94,24 @@ section {
   object-fit: cover;
 }
 
-/* flower */
+/* map section */
+.map-section {
+  overflow: hidden;
+  border: 0.5rem solid white;
+  border-radius: 100rem;
+  width: 13rem;
+  height: 13rem;
+}
+
+iframe {
+  width: 200%;
+  height: 100%;
+  border: 1rem solid white;
+  border-radius: 100;
+  padding-right: 4rem;
+}
+
+/* flower section */
 .flower-section {
   display: flex;
   justify-content: center;
