@@ -95,20 +95,21 @@ section {
 }
 
 /* map section */
-.map-section {
+.iframe-container {
   overflow: hidden;
   border: 0.5rem solid white;
   border-radius: 100rem;
   width: 13rem;
   height: 13rem;
+  position: relative;
 }
 
 iframe {
   width: 200%;
-  height: 100%;
-  border: 1rem solid white;
-  border-radius: 100;
-  padding-right: 4rem;
+  height: 200%;
+  position: absolute;
+  top: -5rem;
+  right: -3rem;
 }
 
 /* flower section */
