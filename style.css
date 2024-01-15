@@ -27,7 +27,12 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 2rem 0;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.border {
+  border-bottom: 0.05rem solid white;
 }
 
 /* header */
