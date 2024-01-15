@@ -121,6 +121,10 @@ section {
   margin: 0.5rem;
 }
 
+.music-player {
+  margin: 1rem;
+}
+
 /* flower section */
 .flower-section {
   display: flex;
