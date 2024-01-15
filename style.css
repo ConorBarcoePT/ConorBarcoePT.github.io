@@ -27,7 +27,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 /* header */
@@ -95,21 +95,20 @@ section {
 }
 
 /* map section */
-.iframe-container {
-  overflow: hidden;
+.map {
+  width: 12rem;
+  height: 12rem;
   border: 0.5rem solid white;
-  border-radius: 100rem;
-  width: 13rem;
-  height: 13rem;
-  position: relative;
+  border-radius: 10rem;
 }
 
-iframe {
-  width: 200%;
-  height: 200%;
-  position: absolute;
-  top: -5rem;
-  right: -3rem;
+.letter-section {
+  text-align: center;
+}
+.letter-text {
+  font-family: "Caveat", cursive;
+  color: white;
+  font-size: 1.5rem;
 }
 
 /* flower section */
